@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.rotate-90 {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease; /* Optional: Add a smooth transition effect */
+}
